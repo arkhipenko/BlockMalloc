@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For BlockMalloc
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BlockMalloc	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+allocate	KEYWORD2
+deallocate	KEYWORD2
+deallocateSafely	KEYWORD2
+setBlockSize	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+BMalloc	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BLOCK_MALLOC_DEFAULT	LITERAL1
+BLOCK_MALLOC_MIN	LITERAL1
+BLOCK_MALLOC_MAX	LITERAL1
