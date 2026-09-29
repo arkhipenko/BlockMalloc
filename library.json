@@ -1,11 +1,11 @@
 {
   "name": "BlockMalloc",
-  "keywords": "memory, allocation, block, fragmentation, mcu",
-  "description": "Memory allocation in blocks of bytes to prevent fragmentation",
+  "keywords": "memory, allocation, malloc, heap, fragmentation, mcu",
+  "description": "malloc() wrapper that rounds every request up to a multiple of a block size, so freed heap chunks come in fewer distinct sizes",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/arkhipenko/BlockMalloc"
+    "url": "https://github.com/arkhipenko/BlockMalloc.git"
   },
   "authors":
   [
@@ -16,7 +16,20 @@
       "maintainer": true
     }
   ],
-  "version": "1.0.0",
-  "frameworks": "arduino",
-  "platforms": "*"
+  "version": "1.1.0",
+  "license": "BSD-3-Clause",
+  "headers": "BlockMalloc.h",
+  "frameworks": "*",
+  "platforms": "*",
+  "export": {
+    "include": [
+      "src",
+      "examples",
+      "library.json",
+      "library.properties",
+      "keywords.txt",
+      "LICENSE.txt",
+      "README.md"
+    ]
+  }
 }

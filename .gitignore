@@ -1,0 +1,10 @@
+# Claude Code and Design Central
+.claude/
+.dc/
+.mcp.json
+CLAUDE.md
+CLAUDE.local.md
+claude-start
+
+# Folders starting with an underscore
+_*/
